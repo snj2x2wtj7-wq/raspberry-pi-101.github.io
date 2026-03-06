@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <title>Raspberry Pi 101</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="hero-card">
+       <h1>Raspberry Pi: leren, bouwen, ontdekken</h1>
+        <p>Een complete handleiding voor het begrijpen, instellen en gebruiken van de Raspberry Pi.</p>
+        <a href="homepage.html" class="hero-btn">Home</a>
+    </div>
+
+    <div class="layout">
+
+        <aside class="sidebar">    
+          <h3>Inhoud</h3>
+            <ul>
+                <li><a href="history.html">Geschiedenis</a></li>
+                <li><a href="wat-is.html">Wat is Raspberry Pi?</a></li>
+                <li><a href=hardware.html>Hardware</a></li>
+                <li><a href=software.html class="active">Software</a></li>
+                <li><a href="installation.html">Installatie</a></li>
+                <li><a href="programming.html">Programmeren</a></li>
+                <li><a href="projects.html">Projecten</a></li>
+                <li><a href="future.html">Toekomst</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </aside>
+
+  <main class="content">
+    <h1>Software</h1>
+    <h3>Besturingssystemen</h3>
+    <p>
+      Voor de Raspberry Pi is het algemeen aanbevolen besturingssysteem het Raspberry Pi OS, een Debian&mdash;gebaseerd systeem. Dit besturingssysteem wordt gebruikt omdat het speciaal is ontwikkeld voor de Raspberry Pi&mdash;hardware, een lage basisgeheugenvereiste heeft en beschikbaar is in:
+    </p>
+
+    <ul>
+      <li>32&mdash;bit</li>
+      <li>64&mdash;bit</li>
+    </ul>
+    <p>
+      Dit besturingssysteem wordt op de meeste modellen vooraf ge&iumlnstalleerd op de microSD&mdash;kaart. Later werd het ook mogelijk om andere besturingssystemen op de Raspberry Pi te installeren, zoals macOS, Ubuntu en Windows.
+    </p>
+
+    <h3>Firmware</h3>
+    <p>
+      De offici&eumlle broncode van de Raspberry Pi&mdash;firmware is niet openbaar beschikbaar. Er bestaat echter een experimenteel open&mdash;source alternatief dat, hoewel beperkt, de ARM&mdash;processorkernen van de Raspberry Pi toont en een basisversie van Linux bevat. Dit is vooral waardevol voor ontwikkelaars.
+    </p>
+    <h3>Driver&mdash;API's</h3>
+    <p>
+      De Raspberry Pi maakt gebruik van Broadcom&apos;s VideoCore&mdash;GPU. Het grootste deel van de driver bestaat uit gesloten&mdash;bron GPU&mdash;firmware, die samenwerkt met een open&mdash;source kernel&mdash;driver die communiceert met deze gesloten firmware.
+    </p>
+    <p>
+      In 2020 werd bevestigd dat er gewerkt wordt aan een Vulkan&mdash;graficsdriver. Vulkan is een platformonafhankelijke API die de grafische prestaties kan verbeteren, ongeacht de hardware. Dit betekent dat de Vulkan&mdash;API mogelijk het prestatieniveau van de Raspberry Pi dichter bij dat van een volledige pc kan brengen. Deze ontwikkeling is echter nog steeds in uitvoering.
+    </p>
+    <img src="Images/vulkan.jpg" class="center-img"width="220" height="140">
+
+    <div class="page-nav">
+          <a href="installation.html" class="prev-btn"> &#8592 Vorige</a>
+          <a href="projects.html" class="next-btn">Volgende &#8594</a>
+        </div>
+    </main>
+
+    </div>
+    
+    <footer class="footer">
+        <p> &copy 2026 Caitlyn & Mia  - Educatieve website voor Raspberry Pi</p>
+    </footer>
+
+</body>
+</html>
